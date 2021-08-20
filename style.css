@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 74px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000
+}
+
+.nav_logo_container {
+    padding-left: 20px;
+}
+
+.nav_middle_container {
+    width: 278px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.top_link {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.checkoffers {
+    background-color: #000000;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 14px;
+    padding-left: 14px;
+    border-radius: 20px;
+}
+
+.nav_right_container {
+    width: 235px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.upper_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 180px;
+    margin-top: 30px;
+}
+
+.education {
+    color: #6E7A82;
+    line-height: 140%;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.expert_container {
+    margin-top: 5px;
+}
+
+.expert {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 110%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.knowledge_container {
+    width: 600px;
+    height: 56px;
+    margin-top: 20px;
+}
+
+.knowledge {
+    color: #6E7A82;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
